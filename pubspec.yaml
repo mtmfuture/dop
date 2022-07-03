@@ -1,0 +1,47 @@
+name: dop
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.3
+  flutter_lints: ^2.0.0
+  flutter_svg: ^1.1.1
+  flutter_native_splash: ^2.2.3+1
+  intl: ^0.17.0
+  http: ^0.13.1
+  cupertino_icons: ^1.0.2
+
+flutter_native_splash:
+  color: "#002359"
+  image: assets/images/DOPlogo.png
+  android: true
+  ios: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/rive/
+    - assets/fonts/
+
+  fonts:
+    - family: MontserratRegular
+      fonts:
+        - asset: assets/fonts/MontserratRegular.ttf
+    - family: MontserratBold
+      fonts:
+        - asset: assets/fonts/MontserratBold.ttf
